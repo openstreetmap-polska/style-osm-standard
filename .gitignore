@@ -1,3 +1,9 @@
+layers/background.shp
+layers/background.shx
+layers/background.dbf
+layers/background.prj
+layers/background.cpg
+layers/background.qpj
 layers/gis_osm_*.shp
 layers/gis_osm_*.shx
 layers/gis_osm_*.dbf
