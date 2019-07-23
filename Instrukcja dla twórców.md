@@ -37,4 +37,7 @@ później wystarczy samo `git push`
 ```bash
 git pull
 git checkout master
+git pull
+git status
 ```
+jeśli otrzymamy informację że nasze repozytorium jest aktualne (`Your branch is up to date with 'origin/master'.`) możemy przejść do kolejnego zadania, czyli do punktu 2.
