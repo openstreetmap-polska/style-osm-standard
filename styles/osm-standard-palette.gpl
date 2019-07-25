@@ -1,0 +1,46 @@
+GIMP Palette
+Name: QGIS Palette
+Columns: 4
+#
+170 170 170	built-up-lowzoom
+192 192 192	built-up-z11
+208 208 208	built-up-z12
+224 223 223	residential
+185 185 185	residential-line
+255 214 209	retail
+217 156 149	retail-line
+242 218 217	commercial
+209 178 176	commercial-line
+235 219 232	industrial
+198 179 195	industrial-line
+238 240 213	farmland
+199 201 174	farmland-line
+245 220 186	farmyard
+209 180 140	farmyard-line
+174 223 163	orchard
+201 225 191	allotments
+173 209 158	forest
+ 70 103  59	forest-text
+200 250 204	park
+205 235 176	grass
+200 215 171	scrub
+214 217 159	heath
+238 229 220	bareground
+170 224 203	pitch
+181 227 181	golf-course
+170 203 175	cemetery
+199 199 180	construction
+197 195 195	quarry
+208 208 208	place-of-worship
+255  85  85	military
+ 34  34  34	placesnames
+119 119 119	placesnames-light
+170 211 223	water-color
+242 239 233	land-color
+217 208 201	building-fill
+221 236 236	glacier
+153 204 255	glacier-line
+ 77 128 179	water-text
+170 170 170	weir-line
+ 68  68  68	dam-line
+173 173 173	dam
