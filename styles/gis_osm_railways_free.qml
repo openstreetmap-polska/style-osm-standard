@@ -48,12 +48,12 @@
       </symbol>
       <symbol type="line" clip_to_extent="1" alpha="1" name="1" force_rhr="0">
         <layer enabled="1" locked="0" pass="0" class="SimpleLine">
-          <prop v="square" k="capstyle"/>
+          <prop v="round" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
           <prop v="MM" k="customdash_unit"/>
           <prop v="0" k="draw_inside_polygon"/>
-          <prop v="bevel" k="joinstyle"/>
+          <prop v="round" k="joinstyle"/>
           <prop v="120,120,120,255" k="line_color"/>
           <prop v="solid" k="line_style"/>
           <prop v="0.5" k="line_width"/>
@@ -75,12 +75,12 @@
       </symbol>
       <symbol type="line" clip_to_extent="1" alpha="1" name="2" force_rhr="0">
         <layer enabled="1" locked="0" pass="0" class="SimpleLine">
-          <prop v="square" k="capstyle"/>
+          <prop v="round" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
           <prop v="MM" k="customdash_unit"/>
           <prop v="0" k="draw_inside_polygon"/>
-          <prop v="bevel" k="joinstyle"/>
+          <prop v="round" k="joinstyle"/>
           <prop v="120,120,120,255" k="line_color"/>
           <prop v="solid" k="line_style"/>
           <prop v="0.9" k="line_width"/>
@@ -156,12 +156,12 @@
       </symbol>
       <symbol type="line" clip_to_extent="1" alpha="1" name="5" force_rhr="0">
         <layer enabled="1" locked="0" pass="0" class="SimpleLine">
-          <prop v="square" k="capstyle"/>
+          <prop v="round" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
           <prop v="MM" k="customdash_unit"/>
           <prop v="0" k="draw_inside_polygon"/>
-          <prop v="bevel" k="joinstyle"/>
+          <prop v="round" k="joinstyle"/>
           <prop v="110,110,110,255" k="line_color"/>
           <prop v="solid" k="line_style"/>
           <prop v="2" k="line_width"/>
@@ -183,12 +183,12 @@
       </symbol>
       <symbol type="line" clip_to_extent="1" alpha="1" name="6" force_rhr="0">
         <layer enabled="1" locked="0" pass="0" class="SimpleLine">
-          <prop v="square" k="capstyle"/>
+          <prop v="round" k="capstyle"/>
           <prop v="5;2" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
           <prop v="MM" k="customdash_unit"/>
           <prop v="0" k="draw_inside_polygon"/>
-          <prop v="bevel" k="joinstyle"/>
+          <prop v="round" k="joinstyle"/>
           <prop v="110,110,110,255" k="line_color"/>
           <prop v="solid" k="line_style"/>
           <prop v="1" k="line_width"/>
@@ -248,6 +248,7 @@
   <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
     <DiagramCategory backgroundAlpha="255" sizeScale="3x:0,0,0,0,0,0" rotationOffset="270" height="15" scaleDependency="Area" lineSizeType="MM" backgroundColor="#ffffff" penWidth="0" maxScaleDenominator="1e+08" labelPlacementMethod="XHeight" minimumSize="0" diagramOrientation="Up" enabled="0" sizeType="MM" minScaleDenominator="0" lineSizeScale="3x:0,0,0,0,0,0" width="15" penAlpha="255" scaleBasedVisibility="0" penColor="#000000" opacity="1" barWidth="5">
       <fontProperties style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+      <attribute field="" label="" color="#000000"/>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
   <DiagramLayerSettings linePlacementFlags="18" zIndex="0" placement="2" obstacle="0" priority="0" showAll="1" dist="0">
