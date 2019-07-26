@@ -11,3 +11,6 @@ layers/gis_osm_*.prj
 layers/gis_osm_*.cpg
 layers/README
 layers/*.zip
+
+osm-standard.qgs
+osm-standard.qgs~
