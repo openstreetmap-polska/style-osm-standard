@@ -13,22 +13,20 @@
       <rule symbol="3" scalemaxdenom="4000" key="{667679f6-ab0c-4972-8e52-291667b5afbe}" label="dam" scalemindenom="1" filter="&quot;fclass&quot; = 'dam'"/>
       <rule symbol="4" scalemaxdenom="8000" key="{1c47f020-ed18-423b-ba43-372eb2034aa2}" label="ford" scalemindenom="1" filter="&quot;fclass&quot; = 'ford'"/>
       <rule symbol="5" key="{8ef1f665-d3e4-4109-a889-c024527c0371}" label="marina" filter="&quot;fclass&quot; = 'marina'"/>
-      <rule symbol="6" key="{7a93a502-cb82-4545-9d7e-5a5f55b70086}" label="mini_roundabout" checkstate="0" filter="&quot;fclass&quot; = 'mini_roundabout'"/>
-      <rule symbol="7" key="{5ac7ab04-f7ee-454c-b68c-b82ec95840d1}" label="motorway_junction" checkstate="0" filter="&quot;fclass&quot; = 'motorway_junction'"/>
-      <rule symbol="8" key="{2c6da57a-b7f9-44ac-8281-6a7186b31de3}" label="parking" checkstate="0" filter="&quot;fclass&quot; = 'parking'"/>
-      <rule symbol="9" key="{3a845142-2c2a-4913-8bd1-dce5e42e29a2}" label="parking_bicycle" checkstate="0" filter="&quot;fclass&quot; = 'parking_bicycle'"/>
-      <rule symbol="10" key="{43f2a975-4ed2-4cd9-a858-aa888db90029}" label="parking_multistorey" checkstate="0" filter="&quot;fclass&quot; = 'parking_multistorey'"/>
-      <rule symbol="11" key="{13707b58-30bb-429d-9d74-2c61aaa4a9fd}" label="parking_underground" checkstate="0" filter="&quot;fclass&quot; = 'parking_underground'"/>
-      <rule symbol="12" key="{5e4b100b-19bc-4114-9c24-f57e2770ac1d}" label="service" checkstate="0" filter="&quot;fclass&quot; = 'service'"/>
-      <rule symbol="13" key="{cad65016-2149-49a8-bf39-28091fcef162}" label="slipway" checkstate="0" filter="&quot;fclass&quot; = 'slipway'"/>
-      <rule symbol="14" key="{cd88894a-9bc7-45d8-9c03-446887d456df}" label="speed_camera" checkstate="0" filter="&quot;fclass&quot; = 'speed_camera'"/>
-      <rule symbol="15" key="{f72630d9-cc29-45eb-8cda-639708f75cc3}" label="stop" checkstate="0" filter="&quot;fclass&quot; = 'stop'"/>
-      <rule symbol="16" key="{cca0b235-8d90-47e6-a525-e33f01fdd3b7}" label="street_lamp" checkstate="0" filter="&quot;fclass&quot; = 'street_lamp'"/>
-      <rule symbol="17" key="{6b513e06-59a6-46bc-b03c-dc5bee6fe49a}" label="turning_circle" checkstate="0" filter="&quot;fclass&quot; = 'turning_circle'"/>
-      <rule symbol="18" key="{d94714f2-9376-45b5-85e7-5bacfd616170}" label="waterfall" checkstate="0" filter="&quot;fclass&quot; = 'waterfall'"/>
-      <rule symbol="19" key="{d34f2d2f-41d3-42b7-9a4a-c0ff6ab632f4}" label="weir" checkstate="0" filter="&quot;fclass&quot; = 'weir'"/>
-      <rule symbol="20" key="{f0d70958-8a7e-43ab-97dc-7515058071ad}" label="crossing" checkstate="0" filter="&quot;fclass&quot; = 'crossing'"/>
-      <rule symbol="21" key="{ca828b09-6079-4318-8992-dfc482870d76}" checkstate="0" filter="ELSE"/>
+      <rule symbol="6" scalemaxdenom="15000" key="{2c6da57a-b7f9-44ac-8281-6a7186b31de3}" label="parking" scalemindenom="1" filter="&quot;fclass&quot; in ('parking', 'parking_multistorey',  'parking_underground') "/>
+      <rule symbol="7" scalemaxdenom="15000" key="{3a845142-2c2a-4913-8bd1-dce5e42e29a2}" label="parking_bicycle" scalemindenom="1" filter="&quot;fclass&quot; = 'parking_bicycle'"/>
+      <rule symbol="8" key="{5e4b100b-19bc-4114-9c24-f57e2770ac1d}" label="service" checkstate="0" filter="&quot;fclass&quot; = 'service'"/>
+      <rule symbol="9" key="{cad65016-2149-49a8-bf39-28091fcef162}" label="slipway" checkstate="0" filter="&quot;fclass&quot; = 'slipway'"/>
+      <rule symbol="10" key="{cd88894a-9bc7-45d8-9c03-446887d456df}" label="speed_camera" checkstate="0" filter="&quot;fclass&quot; = 'speed_camera'"/>
+      <rule symbol="11" key="{f72630d9-cc29-45eb-8cda-639708f75cc3}" label="stop" checkstate="0" filter="&quot;fclass&quot; = 'stop'"/>
+      <rule symbol="12" key="{cca0b235-8d90-47e6-a525-e33f01fdd3b7}" label="street_lamp" checkstate="0" filter="&quot;fclass&quot; = 'street_lamp'"/>
+      <rule symbol="13" key="{6b513e06-59a6-46bc-b03c-dc5bee6fe49a}" label="turning_circle" checkstate="0" filter="&quot;fclass&quot; = 'turning_circle'"/>
+      <rule symbol="14" key="{d94714f2-9376-45b5-85e7-5bacfd616170}" label="waterfall" checkstate="0" filter="&quot;fclass&quot; = 'waterfall'"/>
+      <rule symbol="15" key="{d34f2d2f-41d3-42b7-9a4a-c0ff6ab632f4}" label="weir" checkstate="0" filter="&quot;fclass&quot; = 'weir'"/>
+      <rule symbol="16" key="{f0d70958-8a7e-43ab-97dc-7515058071ad}" label="crossing" checkstate="0" filter="&quot;fclass&quot; = 'crossing'"/>
+      <rule symbol="17" key="{8ab744af-2fbc-4dea-aaa7-d63b2293010a}" label="mini_roundabout" checkstate="0" filter="&quot;fclass&quot; = 'mini_roundabout'"/>
+      <rule symbol="18" key="{bbce1757-a23d-4337-9750-3907a1012110}" label="motorway_junction" checkstate="0" filter="&quot;fclass&quot; = 'motorway_junction'"/>
+      <rule symbol="19" key="{ca828b09-6079-4318-8992-dfc482870d76}" checkstate="0" filter="ELSE"/>
     </rules>
     <symbols>
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="0">
@@ -91,7 +89,7 @@
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="10">
         <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="63,210,105,255"/>
+          <prop k="color" v="66,223,197,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
@@ -120,7 +118,7 @@
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="11">
         <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="27,91,210,255"/>
+          <prop k="color" v="95,193,204,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
@@ -149,7 +147,7 @@
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="12">
         <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="234,15,172,255"/>
+          <prop k="color" v="217,65,93,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
@@ -178,7 +176,7 @@
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="13">
         <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="96,181,233,255"/>
+          <prop k="color" v="196,227,56,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
@@ -207,7 +205,7 @@
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="14">
         <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="66,223,197,255"/>
+          <prop k="color" v="18,213,21,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
@@ -236,7 +234,7 @@
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="15">
         <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="95,193,204,255"/>
+          <prop k="color" v="204,105,150,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
@@ -265,7 +263,7 @@
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="16">
         <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="217,65,93,255"/>
+          <prop k="color" v="100,111,223,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
@@ -294,7 +292,7 @@
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="17">
         <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="196,227,56,255"/>
+          <prop k="color" v="203,195,103,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
@@ -323,7 +321,7 @@
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="18">
         <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="18,213,21,255"/>
+          <prop k="color" v="201,68,201,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
@@ -352,7 +350,7 @@
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="19">
         <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="204,105,150,255"/>
+          <prop k="color" v="143,216,116,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
@@ -407,64 +405,6 @@
                   <Option type="int" value="3" name="type"/>
                 </Option>
               </Option>
-              <Option type="QString" value="collection" name="type"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="20">
-        <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="100,111,223,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="name" v="circle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="35,35,35,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" value="" name="name"/>
-              <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="21">
-        <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="143,216,116,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="name" v="circle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="35,35,35,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" value="" name="name"/>
-              <Option name="properties"/>
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
@@ -563,58 +503,68 @@
         </layer>
       </symbol>
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="6">
-        <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+        <layer class="SvgMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="203,195,103,255"/>
+          <prop k="color" v="0,146,218,255"/>
+          <prop k="fixedAspectRatio" v="0"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="name" v="circle"/>
+          <prop k="name" v="/media/andrzej/DATA/Mapy/style-osm-standard/images/parking.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="35,35,35,255"/>
-          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="14"/>
           <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="Pixel"/>
           <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
               <Option type="QString" value="" name="name"/>
-              <Option name="properties"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="fillColor">
+                  <Option type="bool" value="true" name="active"/>
+                  <Option type="QString" value="project_color('transportation-icon')" name="expression"/>
+                  <Option type="int" value="3" name="type"/>
+                </Option>
+              </Option>
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="7">
-        <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
+        <layer class="SvgMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="201,68,201,255"/>
+          <prop k="color" v="0,146,218,255"/>
+          <prop k="fixedAspectRatio" v="0"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="name" v="circle"/>
+          <prop k="name" v="/media/andrzej/DATA/Mapy/style-osm-standard/images/bicycle_parking.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="35,35,35,255"/>
-          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="14"/>
           <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="Pixel"/>
           <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
               <Option type="QString" value="" name="name"/>
-              <Option name="properties"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="fillColor">
+                  <Option type="bool" value="true" name="active"/>
+                  <Option type="QString" value="project_color('transportation-icon')" name="expression"/>
+                  <Option type="int" value="3" name="type"/>
+                </Option>
+              </Option>
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
@@ -623,7 +573,7 @@
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="8">
         <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="216,157,122,255"/>
+          <prop k="color" v="234,15,172,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
@@ -652,7 +602,7 @@
       <symbol clip_to_extent="1" alpha="1" type="marker" force_rhr="0" name="9">
         <layer class="SimpleMarker" enabled="1" pass="0" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="113,25,213,255"/>
+          <prop k="color" v="96,181,233,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
@@ -681,8 +631,8 @@
     </symbols>
   </renderer-v2>
   <labeling type="rule-based">
-    <rules key="{4a3b1201-4ecb-4de3-bfd2-2f9ddae3ab1f}">
-      <rule scalemaxdenom="15000" key="{17209715-cec6-4676-afba-df6b61f9d7d9}" scalemindenom="1" filter=" &quot;fclass&quot;  =  'marina' ">
+    <rules key="{05121a9d-2834-44db-a631-506c975a835b}">
+      <rule scalemaxdenom="15000" key="{5bc612b4-94cb-437c-b8e4-6c20f270d570}" scalemindenom="1" filter=" &quot;fclass&quot;  =  'marina' ">
         <settings>
           <text-style blendMode="0" textColor="87,109,223,255" previewBkgrdColor="#ffffff" fontUnderline="0" fontSize="10" fontStrikeout="0" fontWeight="50" useSubstitutions="0" fontSizeUnit="Point" fontWordSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontFamily="Noto Sans" fontItalic="0" fontCapitals="0" textOpacity="1" multilineHeight="1" fieldName="name" fontLetterSpacing="0" isExpression="0" namedStyle="Italic">
             <text-buffer bufferBlendMode="0" bufferColor="255,255,255,255" bufferDraw="1" bufferSizeUnits="Pixel" bufferOpacity="1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="1" bufferSize="1"/>
