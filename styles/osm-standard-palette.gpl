@@ -38,9 +38,8 @@ Columns: 4
 170 211 223	water-color
 242 239 233	land-color
 217 208 201	building-fill
-221 236 236	glacier
-153 204 255	glacier-line
- 77 128 179	water-text
-170 170 170	weir-line
- 68  68  68	dam-line
-173 173 173	dam
+121 129 176	station-color
+  0 146 218	transportation-icon
+255 255 255	standard-halo-fill
+132  97 196	air-transport
+ 87 109 223	marina-text
