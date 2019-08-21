@@ -18,12 +18,11 @@
       <rule filter="&quot;fclass&quot; = 'service'" symbol="8" label="service" key="{5e4b100b-19bc-4114-9c24-f57e2770ac1d}"/>
       <rule filter="&quot;fclass&quot; = 'slipway'" symbol="9" label="slipway" scalemindenom="1" scalemaxdenom="4000" key="{cad65016-2149-49a8-bf39-28091fcef162}"/>
       <rule filter="&quot;fclass&quot; = 'waterfall'" symbol="10" label="waterfall" scalemindenom="1" scalemaxdenom="8000" key="{d94714f2-9376-45b5-85e7-5bacfd616170}"/>
-      <rule filter="&quot;fclass&quot; = 'weir'" symbol="11" label="weir" checkstate="0" key="{d34f2d2f-41d3-42b7-9a4a-c0ff6ab632f4}"/>
-      <rule filter="&quot;fclass&quot; = 'crossing'" symbol="12" label="crossing" checkstate="0" key="{f0d70958-8a7e-43ab-97dc-7515058071ad}"/>
-      <rule filter="&quot;fclass&quot; = 'motorway_junction'" symbol="13" label="motorway_junction" checkstate="0" key="{bbce1757-a23d-4337-9750-3907a1012110}"/>
-      <rule filter="&quot;fclass&quot; = 'turning_circle'" symbol="14" label="turning_circle" checkstate="0" key="{c49e9070-2c88-4615-8a03-3c0123033277}"/>
-      <rule filter="&quot;fclass&quot; = 'mini_roundabout'" symbol="15" label="mini_roundabout" checkstate="0" key="{56e4a629-f952-47e0-bbae-4bb5b54b3441}"/>
-      <rule filter="ELSE" symbol="16" checkstate="0" key="{ca828b09-6079-4318-8992-dfc482870d76}"/>
+      <rule filter="&quot;fclass&quot; = 'weir'" symbol="11" label="weir" scalemindenom="1" scalemaxdenom="4000" key="{d34f2d2f-41d3-42b7-9a4a-c0ff6ab632f4}"/>
+      <rule filter="&quot;fclass&quot; = 'motorway_junction'" symbol="12" label="motorway_junction" key="{bbce1757-a23d-4337-9750-3907a1012110}"/>
+      <rule filter="&quot;fclass&quot; = 'turning_circle'" symbol="13" label="turning_circle" checkstate="0" key="{c49e9070-2c88-4615-8a03-3c0123033277}"/>
+      <rule filter="&quot;fclass&quot; = 'mini_roundabout'" symbol="14" label="mini_roundabout" checkstate="0" key="{56e4a629-f952-47e0-bbae-4bb5b54b3441}"/>
+      <rule filter="ELSE" symbol="15" checkstate="0" key="{ca828b09-6079-4318-8992-dfc482870d76}"/>
     </rules>
     <symbols>
       <symbol type="marker" force_rhr="0" name="0" alpha="1" clip_to_extent="1">
@@ -120,7 +119,7 @@
       <symbol type="marker" force_rhr="0" name="11" alpha="1" clip_to_extent="1">
         <layer locked="0" pass="0" enabled="1" class="SimpleMarker">
           <prop k="angle" v="0"/>
-          <prop k="color" v="204,105,150,255"/>
+          <prop k="color" v="170,211,223,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
@@ -133,49 +132,26 @@
           <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="7"/>
           <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="Pixel"/>
           <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
               <Option value="" type="QString" name="name"/>
-              <Option name="properties"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="fillColor">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="project_color('water-color')" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
+                </Option>
+              </Option>
               <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
       <symbol type="marker" force_rhr="0" name="12" alpha="1" clip_to_extent="1">
-        <layer locked="0" pass="0" enabled="1" class="SimpleMarker">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="100,111,223,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="name" v="circle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="35,35,35,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option value="" type="QString" name="name"/>
-              <Option name="properties"/>
-              <Option value="collection" type="QString" name="type"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol type="marker" force_rhr="0" name="13" alpha="1" clip_to_extent="1">
         <layer locked="0" pass="0" enabled="1" class="SimpleMarker">
           <prop k="angle" v="0"/>
           <prop k="color" v="201,68,201,255"/>
@@ -191,7 +167,7 @@
           <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="0"/>
           <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -204,7 +180,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="marker" force_rhr="0" name="14" alpha="1" clip_to_extent="1">
+      <symbol type="marker" force_rhr="0" name="13" alpha="1" clip_to_extent="1">
         <layer locked="0" pass="0" enabled="1" class="SimpleMarker">
           <prop k="angle" v="0"/>
           <prop k="color" v="196,227,56,255"/>
@@ -233,7 +209,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="marker" force_rhr="0" name="15" alpha="1" clip_to_extent="1">
+      <symbol type="marker" force_rhr="0" name="14" alpha="1" clip_to_extent="1">
         <layer locked="0" pass="0" enabled="1" class="SimpleMarker">
           <prop k="angle" v="0"/>
           <prop k="color" v="203,195,103,255"/>
@@ -262,7 +238,7 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="marker" force_rhr="0" name="16" alpha="1" clip_to_extent="1">
+      <symbol type="marker" force_rhr="0" name="15" alpha="1" clip_to_extent="1">
         <layer locked="0" pass="0" enabled="1" class="SimpleMarker">
           <prop k="angle" v="0"/>
           <prop k="color" v="143,216,116,255"/>
@@ -551,8 +527,8 @@
     </symbols>
   </renderer-v2>
   <labeling type="rule-based">
-    <rules key="{02087bda-f353-4360-b67c-6bf5b415fd68}">
-      <rule filter=" &quot;fclass&quot;  =  'marina' " scalemindenom="1" scalemaxdenom="15000" key="{10fa465f-c44c-4766-91a2-5aa42decc838}">
+    <rules key="{68200949-1f03-4aea-b156-228a2a271f76}">
+      <rule filter=" &quot;fclass&quot;  =  'marina' " scalemindenom="1" scalemaxdenom="15000" key="{faf23030-7d20-456d-aaa7-d6a22ec467e5}">
         <settings>
           <text-style fontSize="10" textOpacity="1" isExpression="0" previewBkgrdColor="#ffffff" fontFamily="Noto Sans" namedStyle="Italic" blendMode="0" fontWordSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontCapitals="0" fontStrikeout="0" fontSizeUnit="Point" fieldName="name" fontWeight="50" useSubstitutions="0" multilineHeight="1" fontItalic="0" fontLetterSpacing="0" fontUnderline="0" textColor="87,109,223,255">
             <text-buffer bufferNoFill="1" bufferJoinStyle="128" bufferOpacity="1" bufferSize="2.000000000000001" bufferSizeUnits="Pixel" bufferColor="255,255,255,255" bufferBlendMode="0" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
@@ -572,7 +548,7 @@
           </dd_properties>
         </settings>
       </rule>
-      <rule filter=" &quot;fclass&quot;  =  'service' " scalemindenom="1" scalemaxdenom="35000" key="{71b3a1b3-150c-4123-b149-c16083c47706}">
+      <rule filter=" &quot;fclass&quot;  =  'service' " scalemindenom="1" scalemaxdenom="35000" key="{0674c8dd-464e-4130-9a1b-d4104a3e1bd6}">
         <settings>
           <text-style fontSize="10" textOpacity="1" isExpression="0" previewBkgrdColor="#ffffff" fontFamily="Noto Sans" namedStyle="Italic" blendMode="0" fontWordSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontCapitals="0" fontStrikeout="0" fontSizeUnit="Point" fieldName="name" fontWeight="50" useSubstitutions="0" multilineHeight="1" fontItalic="0" fontLetterSpacing="0" fontUnderline="0" textColor="232,121,121,255">
             <text-buffer bufferNoFill="1" bufferJoinStyle="128" bufferOpacity="1" bufferSize="1" bufferSizeUnits="Pixel" bufferColor="255,255,255,255" bufferBlendMode="0" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
@@ -590,6 +566,32 @@
                 <Option type="Map" name="Color">
                   <Option value="true" type="bool" name="active"/>
                   <Option value="darker(project_color('rest-area'),140)" type="QString" name="expression"/>
+                  <Option value="3" type="int" name="type"/>
+                </Option>
+              </Option>
+              <Option value="collection" type="QString" name="type"/>
+            </Option>
+          </dd_properties>
+        </settings>
+      </rule>
+      <rule filter=" &quot;fclass&quot;  =  'motorway_junction' " scalemindenom="1" scalemaxdenom="15000" key="{4c2d267e-a281-44c3-b3cb-2529f1569e77}">
+        <settings>
+          <text-style fontSize="10" textOpacity="1" isExpression="0" previewBkgrdColor="#ffffff" fontFamily="Noto Sans CJK HK" namedStyle="Regular" blendMode="0" fontWordSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontCapitals="0" fontStrikeout="0" fontSizeUnit="Point" fieldName="name" fontWeight="50" useSubstitutions="0" multilineHeight="1" fontItalic="0" fontLetterSpacing="0" fontUnderline="0" textColor="150,0,0,255">
+            <text-buffer bufferNoFill="1" bufferJoinStyle="128" bufferOpacity="1" bufferSize="2.000000000000001" bufferSizeUnits="Pixel" bufferColor="255,255,255,255" bufferBlendMode="0" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
+            <background shapeSizeY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiY="0" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeRadiiX="0" shapeBorderWidth="0" shapeBorderWidthUnit="MM" shapeSizeUnit="MM" shapeType="0" shapeOffsetY="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeOpacity="1" shapeRadiiUnit="MM" shapeRotation="0" shapeSizeX="0" shapeOffsetUnit="MM" shapeSVGFile="" shapeSizeType="0" shapeOffsetX="0" shapeBorderColor="128,128,128,255" shapeJoinStyle="64" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRotationType="0"/>
+            <shadow shadowRadiusUnit="MM" shadowOffsetGlobal="1" shadowOffsetDist="1" shadowRadiusAlphaOnly="0" shadowOffsetUnit="MM" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowUnder="0" shadowOpacity="0.7" shadowBlendMode="6" shadowOffsetAngle="135" shadowScale="100" shadowColor="0,0,0,255" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowDraw="0" shadowRadius="1.5"/>
+            <substitutions/>
+          </text-style>
+          <text-format autoWrapLength="0" useMaxLineLengthForAutoWrap="1" addDirectionSymbol="0" decimals="3" rightDirectionSymbol=">" reverseDirectionSymbol="0" placeDirectionSymbol="0" multilineAlign="3" formatNumbers="0" plussign="0" wrapChar="" leftDirectionSymbol="&lt;"/>
+          <placement placement="0" preserveRotation="1" priority="5" geometryGeneratorEnabled="0" maxCurvedCharAngleIn="25" repeatDistance="0" rotationAngle="0" repeatDistanceUnits="MM" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" distMapUnitScale="3x:0,0,0,0,0,0" distUnits="MM" quadOffset="4" offsetUnits="MM" centroidWhole="0" fitInPolygonOnly="0" xOffset="0" maxCurvedCharAngleOut="-25" geometryGenerator="" placementFlags="10" yOffset="0" centroidInside="0" geometryGeneratorType="PointGeometry" dist="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" offsetType="0"/>
+          <rendering upsidedownLabels="0" obstacle="1" zIndex="0" maxNumLabels="2000" fontMaxPixelSize="10000" drawLabels="1" fontMinPixelSize="3" limitNumLabels="0" displayAll="0" labelPerPart="0" minFeatureSize="0" scaleMin="0" fontLimitPixelSize="0" scaleMax="0" mergeLines="0" obstacleFactor="1" obstacleType="0" scaleVisibility="0"/>
+          <dd_properties>
+            <Option type="Map">
+              <Option value="" type="QString" name="name"/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="Color">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="project_color('junction-text-color')" type="QString" name="expression"/>
                   <Option value="3" type="int" name="type"/>
                 </Option>
               </Option>
