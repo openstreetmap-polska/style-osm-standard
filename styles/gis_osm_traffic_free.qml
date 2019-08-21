@@ -126,13 +126,13 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="35,35,35,255"/>
+          <prop k="outline_color" v="119,119,119,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="7"/>
+          <prop k="size" v="10"/>
           <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="size_unit" v="Pixel"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -527,8 +527,8 @@
     </symbols>
   </renderer-v2>
   <labeling type="rule-based">
-    <rules key="{68200949-1f03-4aea-b156-228a2a271f76}">
-      <rule filter=" &quot;fclass&quot;  =  'marina' " scalemindenom="1" scalemaxdenom="15000" key="{faf23030-7d20-456d-aaa7-d6a22ec467e5}">
+    <rules key="{6ec72375-20ce-4d54-a6b3-331ef8f6393d}">
+      <rule filter=" &quot;fclass&quot;  =  'marina' " scalemindenom="1" scalemaxdenom="15000" key="{fd83cc2a-c86d-4b7e-b756-fdd271d4ee55}">
         <settings>
           <text-style fontSize="10" textOpacity="1" isExpression="0" previewBkgrdColor="#ffffff" fontFamily="Noto Sans" namedStyle="Italic" blendMode="0" fontWordSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontCapitals="0" fontStrikeout="0" fontSizeUnit="Point" fieldName="name" fontWeight="50" useSubstitutions="0" multilineHeight="1" fontItalic="0" fontLetterSpacing="0" fontUnderline="0" textColor="87,109,223,255">
             <text-buffer bufferNoFill="1" bufferJoinStyle="128" bufferOpacity="1" bufferSize="2.000000000000001" bufferSizeUnits="Pixel" bufferColor="255,255,255,255" bufferBlendMode="0" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
@@ -548,7 +548,7 @@
           </dd_properties>
         </settings>
       </rule>
-      <rule filter=" &quot;fclass&quot;  =  'service' " scalemindenom="1" scalemaxdenom="35000" key="{0674c8dd-464e-4130-9a1b-d4104a3e1bd6}">
+      <rule filter=" &quot;fclass&quot;  =  'service' " scalemindenom="1" scalemaxdenom="35000" key="{c1f637d4-d485-48ac-ab87-eebf563a63ad}">
         <settings>
           <text-style fontSize="10" textOpacity="1" isExpression="0" previewBkgrdColor="#ffffff" fontFamily="Noto Sans" namedStyle="Italic" blendMode="0" fontWordSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontCapitals="0" fontStrikeout="0" fontSizeUnit="Point" fieldName="name" fontWeight="50" useSubstitutions="0" multilineHeight="1" fontItalic="0" fontLetterSpacing="0" fontUnderline="0" textColor="232,121,121,255">
             <text-buffer bufferNoFill="1" bufferJoinStyle="128" bufferOpacity="1" bufferSize="1" bufferSizeUnits="Pixel" bufferColor="255,255,255,255" bufferBlendMode="0" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
@@ -574,7 +574,7 @@
           </dd_properties>
         </settings>
       </rule>
-      <rule filter=" &quot;fclass&quot;  =  'motorway_junction' " scalemindenom="1" scalemaxdenom="15000" key="{4c2d267e-a281-44c3-b3cb-2529f1569e77}">
+      <rule filter=" &quot;fclass&quot;  =  'motorway_junction' " scalemindenom="1" scalemaxdenom="15000" key="{ada03e34-fd74-4ca6-963b-4bc9bf095f55}">
         <settings>
           <text-style fontSize="10" textOpacity="1" isExpression="0" previewBkgrdColor="#ffffff" fontFamily="Noto Sans CJK HK" namedStyle="Regular" blendMode="0" fontWordSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontCapitals="0" fontStrikeout="0" fontSizeUnit="Point" fieldName="name" fontWeight="50" useSubstitutions="0" multilineHeight="1" fontItalic="0" fontLetterSpacing="0" fontUnderline="0" textColor="150,0,0,255">
             <text-buffer bufferNoFill="1" bufferJoinStyle="128" bufferOpacity="1" bufferSize="2.000000000000001" bufferSizeUnits="Pixel" bufferColor="255,255,255,255" bufferBlendMode="0" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
