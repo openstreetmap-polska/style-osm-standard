@@ -19,7 +19,7 @@ git checkout <nazwa_gałęzi>
 ```
 5. W [projekcie](https://github.com/openstreetmap-polska/style-osm-standard/projects/1) przenosimy zadanie do kolumny "W trakcie", otwieramy QGIS i tworzymy styl dla warstwy. Styl zapisujemy w folderze 'style' z nazwą zgodną z nazwą warstwy. Styl oczywiście można zapisywać wielokrotnie w trakcie pracy nad nim. Każdy zapis można zabezpieczyć commitem do repozytorium:
 ```bash
-git add style/<nazwa_stylu>
+git add styles/<nazwa_stylu>
 git commit -m "Tu krótki opis co się zrobiło"
 ```
 
