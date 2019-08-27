@@ -1,0 +1,10 @@
+<qgsScales version="1.0">
+    <scale value="1:150000"/>
+    <scale value="1:70000"/>
+    <scale value="1:15000"/>
+    <scale value="1:7500"/>
+    <scale value="1:4000"/>
+    <scale value="1:2000"/>
+    <scale value="1:1000"/>
+    <scale value="1:500"/>
+</qgsScales>
