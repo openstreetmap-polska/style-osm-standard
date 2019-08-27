@@ -1,0 +1,24 @@
+GIMP Palette
+Name: QGIS Palette
+Columns: 4
+#
+194  78 107	@motorway-low-zoom-casing
+207 102  73	@trunk-low-zoom-casing
+195 138  39	@primary-low-zoom-casing
+158 174  35	@secondary-low-zoom-casing
+220  42 103	@motorway-casing
+200  78  47	@trunk-casing
+160 107   0	@primary-casing
+112 125   5	@secondary-casing
+ 98   7  40	@motorway-shield
+ 93  27  11	@trunk-shield
+ 76  46   0	@primary-shield
+ 50  59   0	@secondary-shield
+230 110 137	@motorway-low-zoom
+245 151 122	@trunk-low-zoom
+243 195 128	@primary-low-zoom
+232 237 160	@secondary-low-zoom
+232 146 162	@motorway-fill
+249 178 156	@trunk-fill
+252 214 164	@primary-fill
+247 250 191	@secondary-fill
